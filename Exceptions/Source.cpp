@@ -1,3 +1,5 @@
+//Sample program for Student Login Command Line Program
+
 #include <iostream>
 #include<string>
 #include "STUDENT.h"

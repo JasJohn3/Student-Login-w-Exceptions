@@ -24,7 +24,7 @@ public:
 private:
 	string new_First_Name;
 	string new_Last_Name;
-	char new_MI;
+	char new_Middle_Initial;
 	int new_Age;
 
 

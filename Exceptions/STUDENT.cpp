@@ -4,7 +4,7 @@
 STUDENT::STUDENT(string first_name, char middle_initial, string last_name ,int age )
 {
 	new_First_Name = first_name;
-	new_MI = middle_initial;
+	new_Middle_Initial = middle_initial;
 	new_Last_Name = last_name;
 	new_Age = age;
 }
@@ -18,7 +18,7 @@ string STUDENT::get_First_Name() const
 }
 char STUDENT::get_Middle_Initial() const 
 {
-	return new_MI;
+	return new_Middle_Initial;
 }
 string STUDENT::get_Last_Name() const 
 {
