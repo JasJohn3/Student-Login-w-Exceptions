@@ -28,6 +28,9 @@ int main() {
 	cout << "Student Last Name: " << Student_test.get_Last_Name() << endl;
 	cout << "Student Age: " << Student_test.get_Age() << endl;
 
-	system("pause");
+	//system("pause");
+	cin.get();
+
+	return 0;
 
 }
