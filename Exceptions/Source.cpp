@@ -1,4 +1,5 @@
 //Sample program for Student Login Command Line Program
+
 #include <iostream>
 #include<string>
 #include "STUDENT.h"
@@ -28,8 +29,15 @@ int main() {
 	cout << "Student Last Name: " << Student_test.get_Last_Name() << endl;
 	cout << "Student Age: " << Student_test.get_Age() << endl;
 
-	//system("pause");
-	cin.get();
+	cout << "Change your first name: "<< flush;
+	cin >> first_Name;
+
+	Student_test.set_First_Name(first_Name);
+	cout << "Your new First Name is: " << Student_test.get_First_Name()<<endl;
+
+
+	system("pause");
+	//cin.get();
 
 	return 0;
 
